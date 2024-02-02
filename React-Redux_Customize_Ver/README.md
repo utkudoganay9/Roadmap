@@ -1,0 +1,1 @@
+This project is an example that has been updated from Redux ver.16 to Redux 18 and has some customization points. The project is based on React and Redux and includes HTML, CSS (BootStrap) and JavaScript code samples.

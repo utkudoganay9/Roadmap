@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Giriş sayfası container'ı için stil */
+.container {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px; /* veya istediğiniz bir padding değeri */
+    background-color: #f3f4f6; /* veya istediğiniz bir arka plan rengi */
+  }
+  
+  /* Logo için stil */
+  .logo {
+    display: block;
+    margin: auto;
+    height: 40px; /* veya istediğiniz bir yükseklik değeri */
+    width: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+  }
+  
+  /* Başlık için stil */
+  .title {
+    margin-top: 20px; /* veya istediğiniz bir üst boşluk değeri */
+    text-align: center;
+    font-size: 1.5rem; /* veya istediğiniz bir font boyutu */
+    font-weight: bold;
+    color: #374151; /* veya istediğiniz bir renk */
+  }
+  
+  /* Form için stil */
+  .form {
+    margin-top: 20px; /* veya istediğiniz bir üst boşluk değeri */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* veya istediğiniz bir boşluk değeri */
+  }
+  
+  /* Input alanları için ortak stil */
+  .input {
+    width: 100%;
+    border: 0;
+    padding: 10px; /* veya istediğiniz bir padding değeri */
+    border-radius: 4px; /* veya istediğiniz bir köşe yuvarlama değeri */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* İnce bir gölge efekti */
+  }
+  
+  
+  
+  /* Buton için stil */
+  .button {
+    width: 100%;
+    padding: 10px; /* veya istediğiniz bir padding değeri */
+    border: 0;
+    border-radius: 4px; /* veya istediğiniz bir köşe yuvarlama değeri */
+    background-color: #f59e0b; /* veya istediğiniz bir arka plan rengi */
+    color: #fff; /* veya istediğiniz bir metin rengi */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hover efekti için geçiş süresi */
+  }
+  
+  /* Buton hover efekti */
+  .button:hover {
+    background-color: #fbbf24; /* veya istediğiniz bir hover rengi */
+  }
+  
+  /* Bağlantı için stil */
+  .link {
+    text-align: center;
+    font-size: 0.875rem; /* veya istediğiniz bir font boyutu */
+    color: #f59e0b; /* veya istediğiniz bir renk */
+    text-decoration: none;
+  }
+  
+  /* Bağlantı hover efekti */
+  .link:hover {
+    color: #fbbf24; /* veya istediğiniz bir hover rengi */
+  }
+  

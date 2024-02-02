@@ -1,0 +1,1 @@
+This project is an example of an internship project for ON7 Yazılım. It was developed React and includes HTML, CSS(TailwindCSS), and JavaScript code examples.

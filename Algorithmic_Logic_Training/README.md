@@ -1,0 +1,1 @@
+This project includes interactive exercises and challenges that teach the fundamental concepts of coding logic, such as variables, loops, and conditionals. It's perfect for beginners!

@@ -1,0 +1,85 @@
+Algoritma Örnekeleri
+
+1. Birbirinden farklı 2 sayıdan büyük olanı gösteren diyagram?
+
+Adım1: Başla
+Adım2: 1.değeri gir (Sayı1)
+Adım3: 2.değeri gir (Sayı2)
+Adım4: (Sayı1) > (Sayı2) ise YAZ Sayı1
+Adım5: değilse YAZ Sayı2
+Adım6: Bitir
+
+2.Girilen 2 sınav notlarına göre öğrencinin dersten geçip geçmediğini (70den buyukse geçer) bulan algoritma ve akış diyagramını tasarlayınız
+
+Adım1: Başla
+Adım2: 1.değeri gir (Sınav1)
+Adım2: 2.değeri gir (Sınav2)
+Adım3: Ortalama = (Sınav1 + Sınav2) / 2
+Adım4: Ortalama < 70 ise YAZ GEÇEMEDİ
+Adım5: değilse YAZ GEÇTİ
+Adım6: Bitir
+
+3. Verilen tamsayının sıfır, pozitif ya da negatif olup olmadığını bulan algoritma ve akış diyagramını tasarlayınız.
+
+Adım1: Başla
+Adım2: 1.değeri gir (değer1)
+Adım3: değer1 < 0 ise YAZ Negatif
+Adım4: değer1 > 0 ise YAZ Pozitif
+Adım5: değilse YAZ 0
+
+4.Ekrana 10 defa programcının adını yazan algoritmayı yapınız
+
+Adım1: Başla
+Adım2: Sayaç=0
+Adım3: yaz Utku
+Adım4: Sayaç= sayaç + 1
+Adım5: Sayaç ≤ 10 ise git Adım3
+Adım6: Bitir
+
+5.1’den 100’e kadar tek sayıları yazdıran algoritma ve akış diyagramını yapınız.??
+
+Adım1: Başla
+Adım2: sayaç=1
+Adım3: mod1=0 ise yaz sayaç
+Adım4: Sayaç= sayaç+1
+Adım5: Sayaç <= 100 ise adım4 e GİT
+Adım6: Bitir
+
+6.Suyun sıcaklık derecesine göre katı sıvı gaz halinde olduğu bulan ve ekrana yazan algoritma ?
+
+Adım1: Başla
+Adım2: suyun sıcaklık değerini gir (derece)
+Adım3: derece < 0 ise YAZ KATI
+Adım4: derece > 100 ise YAZ GAZ
+Adım5: değilse YAZ SIVI
+Adım6: Bitir
+
+7. Kenar uzunlukları belirtilecek dikdörtgenın alanını ve çevresini hesaplayan algoritma?
+
+Adım1: Başla
+Adım2: Kısa kenarı yaz (kk)
+Adım3: Uzun kenarı yaz (uk)
+Adım4: Çevre = uk + kk * 2
+Adım5: Alan = uk * kk
+Adım6: Bitir
+
+8.Beş sayının toplamını ve ortalamasını veren programa ait algoritmayı oluşturunuz.
+
+Adım1: Başla
+Adım2: toplam = 0 sayaç = 0
+Adım2: bir sayı gir (sayı
+Adım3: toplam = toplam+sayı
+Adım4: sayaç = sayaç + 1
+Adım5: sayaç <=5 ise git adım 2 
+Adım6: ortalama = toplam / 5
+Adım7: Bitir
+
+9. Girilen 10 sayıdan çift olanları toplayıp yazdıran algoritma oluşturunuz.
+
+Adım1: Başla
+Adım2: Toplam= 0 sayaç = 0
+Adım3: bir sayı girin (sayı)
+Adım4: toplam = toplam + sayı
+Adım5: sayaç= sayaç + 1 
+Adım6: sayaç < 10 ise git adım3
+Adım7: 

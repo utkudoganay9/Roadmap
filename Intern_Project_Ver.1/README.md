@@ -1,0 +1,1 @@
+This project is an example of an internship project for ON7 Yazılım. It was developed by customizing a pre-made AdminLTE template, including adding new sections, modifying existing features, and updating the user interface. The project also contains HTML, CSS, and JavaScript code examples.

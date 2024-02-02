@@ -1,0 +1,29 @@
+/* Header.css */
+.header-icon {
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.3s;
+  font-size: 0.5rem; /* Varsayılan ikon boyutu */
+}
+
+.header-icon:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.bell-icon,
+.exit-icon {
+  font-size: 1.5rem; /* İkonların eşit büyüklükte olmasını sağlamak için boyut ayarı */
+  margin: 0 0.5rem; /* İkonlar arasındaki boşluk */
+}
+
+.bell-icon {
+  color: #ffcc00; /* Bell ikonu rengi */
+}
+
+.exit-icon {
+  color: #ff0000; /* Exit ikonu rengi */
+}
+.exit-text {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
