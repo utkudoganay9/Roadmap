@@ -5,9 +5,8 @@ import { PiStudentFill } from "react-icons/pi";
 
 const Dashboard = () => {
   const cardsData = [
-    { title: 'Card 1', content: 'Content for Card 1' },
-    // { title: 'Card 2', content: 'Content for Card 2' },
-    // ... Diğer kartlar
+    { title: 'Card 1', content: 'Card 1' },
+
   ];
 
   return (
@@ -20,7 +19,7 @@ const Dashboard = () => {
               <h2 className="text-2xl font-bold mb-2">Kullanıcı</h2>
               <div className="flex items-center">
   <PiStudentFill className="text-gray-700 inline-block mr-2" />
-  <p className="text-gray-700">eğitimdurumuuuuuuuuuuuuuuu</p>
+  <p className="text-gray-700">eğitimdurumu</p>
 </div>
               <div className="flex items-center">
   <FaPhone className="text-gray-700 inline-block mr-2" />
