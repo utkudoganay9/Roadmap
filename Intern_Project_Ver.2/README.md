@@ -1,4 +1,4 @@
-# Internship Project Example
+# Internship Project Example 🛠️
 
 ## Overview
 
