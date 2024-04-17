@@ -1,4 +1,4 @@
-# Project Title
+# Customizing Pre-Made Control Panel Template 📚
 
 ## Introduction
 This project is an example showcase developed by customizing a pre-made template. It includes enhancements such as:
