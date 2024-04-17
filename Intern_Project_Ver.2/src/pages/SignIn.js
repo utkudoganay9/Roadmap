@@ -1,20 +1,19 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom'; // useHistory yerine useNavigate kullanıyoruz
+import { useNavigate } from 'react-router-dom'; 
 import "../components/css/SignIn.css";
 
 export default function Example() {
-  const navigate = useNavigate(); // useHistory yerine useNavigate kullanıyoruz
+  const navigate = useNavigate(); 
   const [isLoggedIn, setLoggedIn] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Burada giriş işlemlerini gerçekleştirin
-    // Örnek: Kullanıcı girişi başarılı ise isLoggedIn durumunu güncelle
+    
     setLoggedIn(true);
 
-    // Başarılı giriş sonrası yönlendirme
-    navigate('/dashboard'); // useHistory yerine useNavigate kullanıyoruz
+    
+    navigate('/dashboard'); 
   };
 
   return (
@@ -33,7 +32,6 @@ export default function Example() {
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-6" action="#" method="POST" onSubmit={handleSubmit}>
-            {/* Diğer form elemanları buraya gelecek */}
             <div>
               <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                 E-mail
