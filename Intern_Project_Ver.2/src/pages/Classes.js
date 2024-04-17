@@ -3,25 +3,21 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 
 const Classes = () => {
   const cardsData = [
-    // Kart verileri...
+ 
   ];
 
-  // Sayfa başına kart sayısı
   const cardsPerPage = 5;
 
-  // Toplam sayfa sayısı
+ 
   const totalPages = Math.ceil(cardsData.length / cardsPerPage);
 
-  // Aktif sayfa durumu
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Şu anki sayfadaki kartları al
   const currentCards = cardsData.slice(
     (currentPage - 1) * cardsPerPage,
     currentPage * cardsPerPage
   );
 
-  // Sayfa değiştirme fonksiyonu
   const changePage = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {
       setCurrentPage(newPage);
@@ -33,9 +29,7 @@ const Classes = () => {
       <h3 className="text-4xl font-bold  ml-60 mt-20">Dersler</h3>
       <div className="relative overflow-x-auto overflow-y-auto shadow-md sm:rounded-lg mt-12 ml-60">
         <table className="w-full text-xs sm:text-sm text-left rtl:text-right text-black dark:text-black">
-          {/* Tablo içeriği buraya gelecek */}
         </table>
-        {/* Sayfalama için */}
         <div className="flex justify-end mt-4">
           <nav className="relative z-0 inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
             <button
