@@ -15,14 +15,12 @@ function App() {
     <div className="">
       <Router>
         <Routes>
-          {/* Ana layout için Route */}
           <Route
             path="/*"
             element={
               <>
                 <Header />
                 <Sidebar />
-                {/* Diğer sayfaların Route'ları */}
                 <Routes>
                   <Route index path="/dashboard" element={<Dashboard />} />
                   <Route index path="/classes" element={<Classes />} />
@@ -30,13 +28,11 @@ function App() {
                   <Route index path="/groups" element={<Groups />} />
                   <Route index path="/help" element={<Help />} />
                   <Route index path="/notifications" element={<Notifications />} />
-                  {/* Diğer sayfalar */}
                 </Routes>
                 <Footer />
               </>
             }
           />
-          {/* SignIn sayfası için ayrı bir Route */}
           <Route path="/sign-in" element={<SignIn />} />
         </Routes>
       </Router>
