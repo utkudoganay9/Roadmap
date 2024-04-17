@@ -1,6 +1,6 @@
-# Journey to Becoming a Software Developer
+# Journey to Becoming a Software Developer ✨
 
-This repository is a curated collection of draft projects that chart the journey from beginner to becoming a software developer. The projects encompass a range of topics including:
+This repository is a collection of draft projects that chart the journey from beginner to becoming a software developer. The projects encompass a range of topics including:
 
 - **Algorithm Logic**: Fundamental building blocks for learning algorithm logic.
 - **Introduction to Java**: Basics of Java programming language.
