@@ -13,24 +13,14 @@ const Sidebar = () => {
 
   return (
     <div className="relative">
-      {/* Sidebar Toggle Butonu */}
-      {/* <button
-        onClick={toggleSidebar}
-        className={`fixed top-5 left-10 text-black-700 focus:outline-none transition-transform duration-300 transform ${
-          isOpen ? "translate-x-40" : "translate-x-0"
-        }`}
-        style={{ zIndex: 1 }}
-      >
-        {isOpen ? <FaBars size={24} /> : <FaBars size={24} />}
-      </button> */}
-
+    
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
-        {/* Logo */}
+        
         <div className="flex items-center justify-center py-5">
           <img src="./img/logorgb.png" alt="logo" className="w-40 h-50" />
         </div>
 
-        {/* Buttons */}
+
         <div className="max-w-2xl mx-auto">
           <aside className="w-64" aria-label="Sidebar">
             <div className="px-3 py-4 overflow-y-auto rounded">
@@ -247,7 +237,7 @@ const Sidebar = () => {
             This sidebar component is part of a larger, open-source library of
             Tailwind CSS components. Learn more by going to the official{" "}
             <a className="text-blue-600 hover:underline" href="#" target="_blank">
-              Flowbite Documentation
+              
             </a>
             .
           </p> */}
