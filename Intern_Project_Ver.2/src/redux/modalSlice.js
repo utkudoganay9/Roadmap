@@ -9,13 +9,11 @@ export const modalSlice = createSlice({
   initialState,
   reducers: {
    
-    // incrementByAmount: (state, action) => {
-    //   state.value += action.payload
-    // },
+   
   },
 })
 
-// Action creators are generated for each case reducer function
+
 export const {  } = modalSlice.actions
 
 export default modalSlice.reducer
